@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div className="container">
       <h1>Find Your Ideal Neighborhood in Puerto Vallarta</h1>
-      <h3>Slide Blue bar to increase Price per Ft²</h3>
+      <h3>Slide Blue bar to increase/adjust Price per Ft²</h3>
       <label>Max Price per Ft²: ${maxPrice}</label>
       <input
         type="range"
