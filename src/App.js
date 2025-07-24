@@ -11,14 +11,14 @@ const neighborhoods = [
 ];
 
 export default function App() {
-  const [maxPrice, setMaxPrice] = useState(220);
+  const [maxPrice, setMaxPrice] = useState(395);
 
   const filtered = neighborhoods.filter(n => n.price <= maxPrice);
 
   return (
     <div className="container">
       <h1>Find Your Ideal Neighborhood in Puerto Vallarta</h1>
-      <h3>Slide Blue bar to increase/adjust Price per Ft²</h3>
+      <h3>Slide Blue bar to adjust Price per Ft²</h3>
       <label>Max Price per Ft²: ${maxPrice}</label>
       <input
         type="range"
